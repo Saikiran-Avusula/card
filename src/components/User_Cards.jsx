@@ -65,7 +65,7 @@ const User_Cards = () => {
             key={user.id}
           >
               <img
-                src={profileImg[index]?.picture.large || "https://via.placeholder.com/9"}
+                src={profileImg[index]?.picture.large || "https://via.placeholder.com/150"}
                 alt={profileImg[index]?.gender || "placeholder"}
                 className="w-full border"
                 style={{ height: "200px" }}
